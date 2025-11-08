@@ -63,3 +63,51 @@ header nav ul a{
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 1em;
 }
+
+/* TESTIMONIAL SECTION */
+
+.testimonial-section{
+  margin-top: 3em;
+}
+
+.testimonial-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+
+
+
+
+
+
+/* APPOINTMENT BOOKING SECTION */
+
+
+.booking-image{
+  max-width: 20rem;
+}
+
+.appoint-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* FOOTER */
+
+footer{
+  min-height: 50vh;
+  background-color: dodgerblue;
+  color: white;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer div{
+  margin-top: 5em;
+  margin-bottom: 3em;
+}

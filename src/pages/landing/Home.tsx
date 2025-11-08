@@ -10,6 +10,15 @@ import { FaUserDoctor } from "react-icons/fa6";
 import { FaHeartbeat } from "react-icons/fa";
 import { LuBrainCircuit } from "react-icons/lu";
 import { GiBrain } from "react-icons/gi";
+
+import { FaArrowCircleLeft } from "react-icons/fa";
+import { FaArrowCircleRight } from "react-icons/fa";
+
+import { RiDoubleQuotesL } from "react-icons/ri";
+import { FaStar } from "react-icons/fa";
+
+import booking_image from "../../assets/book.png"
+import AppointmentBookingForm from "./components/ui/AppointmentBookingForm"
 const Home = () => {
   return (
     <>
@@ -79,6 +88,88 @@ const Home = () => {
             logo=<GiBrain size={60} />
             name="Psychiary Department"
           />
+        </div>
+      </section>
+
+      <section className="testimonial-section">
+        <div className="testimonial-header">
+          <div>
+            <span>TESTIMONIALS</span>
+            <h1>
+              What our Patients Say <br />
+              About Us
+            </h1>
+          </div>
+          <div>
+            <FaArrowCircleLeft size={40} />
+            <FaArrowCircleRight size={40} />
+          </div>
+        </div>
+
+        <div className="testimonials-container">
+          <div>
+            <div>
+              <RiDoubleQuotesL />
+              <div>
+                <p>
+                  I recently had to bring my child to CoreHealth for a minor
+                  injury, and i was so impressed with the Care he received. The
+                  pediatrician was great with him and made himfell at ease, and
+                  the entire staff was kind and attentive
+                </p>
+                <div>
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                </div>
+              </div>
+            </div>
+            <div className="test-person">
+              <img src="" alt="" />
+              <div>
+                <h3>LAURENCE M MWANGI</h3>
+                <p>Nyeri, Kenya</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <RiDoubleQuotesL />
+              <div>
+                <p>
+                  I recently had to bring my child to CoreHealth for a minor
+                  injury, and i was so impressed with the Care he received. The
+                  pediatrician was great with him and made himfell at ease, and
+                  the entire staff was kind and attentive
+                </p>
+                <div>
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                </div>
+              </div>
+            </div>
+            <div className="test-person">
+              <img src="" alt="" />
+              <div>
+                <h3>LAURENCE M MWANGI</h3>
+                <p>Nyeri, Kenya</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="appoint-container">
+          <img src={booking_image} alt="" className="booking-image" />
+          <div>
+            <AppointmentBookingForm/>
+          </div>
         </div>
       </section>
 
