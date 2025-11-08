@@ -1,0 +1,11 @@
+.department-card{
+  padding: 2em;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.475);
+  transition: background-color 0.51s, color 0.51s;
+}
+
+.department-card:hover{
+    background-color: dodgerblue;
+    color: white;
+}
