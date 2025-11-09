@@ -1,48 +1,48 @@
-
+import "../../../../css/app.css"
 const AppointmentBookingForm = () => {
     // const handleSubmit = (e) = > {
     //     e.preventDefault();
     // }
   return (
     <div>
-      <span>BOOK AN</span>
+      <span className="section-span">BOOK AN</span>
       <h1>Appointment</h1>
       <form action="">
-        <div>
+        <div className="form-two-section">
           <div className="from-group">
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name">Name</label><br />
             <input type="text" placeholder="John Doe" />
           </div>
           <div className="from-group">
-            <label htmlFor="phone">Phone Number</label>
+            <label htmlFor="phone">Phone Number</label><br />
             <input type="text" placeholder="John Doe" />
           </div>
         </div>
         <div className="from-group">
-          <label htmlFor="name">Medical record Number</label>
+          <label htmlFor="name">Medical record Number</label><br />
           <input type="text" placeholder="John Doe" />
         </div>
-        <div>
+        <div className="form-two-section">
           <div className="from-group">
-            <label htmlFor="name">Reason for visit</label>
+            <label htmlFor="name">Reason for visit</label><br />
             <input type="text" placeholder="John Doe" />
           </div>
           <div className="from-group">
-            <label htmlFor="name">Department</label>
+            <label htmlFor="name">Department</label><br />
             <input type="text" placeholder="John Doe" />
           </div>
         </div>
-        <div>
+        <div className="form-two-section">
           <div className="from-group">
-            <label htmlFor="name">Prefeferred Date</label>
+            <label htmlFor="name">Prefeferred Date</label><br />
             <input type="text" placeholder="John Doe" />
           </div>
           <div className="from-group">
-            <label htmlFor="name">Prefeferred Time</label>
+            <label htmlFor="name">Prefeferred Time</label><br />
             <input type="text" placeholder="John Doe" />
           </div>
-              </div>
-              <input type="submit" />
+        </div>
+        <input type="submit" />
       </form>
     </div>
   );

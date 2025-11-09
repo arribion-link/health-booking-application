@@ -8,7 +8,7 @@ type DepartmentsCardProp = {
 const DepartmentsCard = ({logo, name }:DepartmentsCardProp) => {
   return (
     <div className="department-card">
-          <div>
+          <div className="">
               {logo}
           </div>
           <div>
